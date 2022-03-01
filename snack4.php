@@ -17,6 +17,8 @@ Hic, laudantium. Incidunt ratione consequuntur cum nam ullam blanditiis a ex vol
 Eum labore sunt iure hic accusamus, eligendi vero saepe quas neque fugiat. Repudiandae voluptates, totam unde, temporibus fugit corrupti cum animi incidunt iure perferendis dicta enim iste laudantium optio quia?"; 
 
 $list_of_paragraphs = explode('.', $paragraph);
+
+var_dump($list_of_paragraphs);
 ?>
 
 <!DOCTYPE html>
@@ -28,11 +30,11 @@ $list_of_paragraphs = explode('.', $paragraph);
     <title>Document</title>
 </head>
 <body>
-    <!-- <article> FOR NORMALE
+    <article>
         <?php for($i = 0; $i < count($list_of_paragraphs); $i++) {
             echo "<p>" . $list_of_paragraphs[$i] . "<p>";
         } ?>
-    </article> -->
+    </article>
 
 
 
